@@ -1,4 +1,4 @@
-# pon-watcher@1.0.0
+# pon-watcher@1.0.1
 
 File watcher for pon
 
@@ -6,7 +6,7 @@ File watcher for pon
   + [create(args)](#pon-watcher-function-create)
 + [`PonWatcher`](#pon-watcher-class) Class
   + [new PonWatcher()](#pon-watcher-class-pon-watcher-constructor)
-  + [watcher.watch(filename, handler)](#pon-watcher-class-pon-watcher-watch)
+  + [watcher.watch(filename, handler, options)](#pon-watcher-class-pon-watcher-watch)
 
 ## Functions
 
@@ -41,7 +41,7 @@ Constructor of PonWatcher class
 
 <a class='md-heading-link' name="pon-watcher-class-pon-watcher-watch" ></a>
 
-### watcher.watch(filename, handler) -> `Promise.<function()>`
+### watcher.watch(filename, handler, options) -> `Promise.<function()>`
 
 Watch file
 
@@ -49,6 +49,8 @@ Watch file
 | ----- | --- | -------- |
 | filename | string | Filename (or glob pattern to watch) |
 | handler | function | File watch handler |
+| options | Object | Optional settings |
+| options.cwd | string | Current working directory |
 
 
 

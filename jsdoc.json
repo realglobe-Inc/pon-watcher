@@ -58,6 +58,22 @@
               "default": "",
               "optional": "",
               "nullable": ""
+            },
+            {
+              "name": "options",
+              "type": "Object",
+              "description": "Optional settings",
+              "default": "{}",
+              "optional": true,
+              "nullable": ""
+            },
+            {
+              "name": "options.cwd",
+              "type": "string",
+              "description": "Current working directory",
+              "default": "process.cwd()",
+              "optional": true,
+              "nullable": ""
             }
           ],
           "examples": [],
