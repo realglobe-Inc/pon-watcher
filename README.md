@@ -96,6 +96,20 @@ tryExample().catch((err) => console.error(err))
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
+<!-- Section from "doc/guides/10.API Guide.md.hbs" Start -->
+
+<a name="section-doc-guides-10-a-p-i-guide-md"></a>
+
+API Guide
+-----
+
++ [pon-watcher@1.0.0](./doc/api/api.md)
+  + [create(args)](./doc/api/api.md#pon-watcher-function-create)
+  + [PonWatcher](./doc/api/api.md#pon-watcher-class)
+
+
+<!-- Section from "doc/guides/10.API Guide.md.hbs" End -->
+
 
 <!-- Sections Start -->
 
