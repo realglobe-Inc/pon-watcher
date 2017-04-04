@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-watcher#readme",
   "dependencies": {
-    "awatch": "^1.0.4",
+    "awatch": "^1.0.5",
     "co": "^4.6.0"
   },
   "devDependencies": {
