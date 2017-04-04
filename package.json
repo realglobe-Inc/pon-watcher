@@ -1,6 +1,6 @@
 {
   "name": "pon-watcher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "File watcher for pon",
   "main": "lib",
   "scripts": {
