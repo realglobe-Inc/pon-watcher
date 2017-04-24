@@ -1,6 +1,6 @@
 {
   "name": "pon-watcher",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "File watcher for pon",
   "main": "lib",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-watcher#readme",
   "dependencies": {
-    "awatch": "^1.0.5",
+    "awatch": "^1.0.7",
     "co": "^4.6.0"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
     "asleep": "^1.0.3",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
-    "pon-assets": "^1.1.1",
+    "pon-assets": "^1.1.2",
     "sg-templates": "^1.4.4",
     "stringcase": "^3.2.1",
     "sugos-travis": "^2.0.7",
@@ -46,8 +46,5 @@
   "engines": {
     "node": ">=6",
     "npm": ">=4"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
   }
 }
