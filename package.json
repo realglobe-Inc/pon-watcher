@@ -22,24 +22,23 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-watcher#readme",
   "dependencies": {
-    "awatch": "^1.0.7",
-    "co": "^4.6.0"
+    "awatch": "^2.0.1"
   },
   "devDependencies": {
-    "ababel": "^2.0.1",
-    "ababel-es2015": "^2.0.1",
-    "amocha": "^2.0.0",
+    "ababel": "^4.0.9",
+    "amocha": "^5.0.0",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^5.0.20",
-    "ape-updating": "^4.1.0",
+    "ape-tmpl": "^6.0.10",
+    "ape-updating": "^5.0.1",
     "asleep": "^1.0.3",
-    "coz": "^6.0.20",
+    "co": "^4.6.0",
+    "coz": "^7.0.2",
     "injectmock": "^2.0.0",
     "pon-assets": "^1.1.2",
     "sg-templates": "^1.4.4",
-    "stringcase": "^3.2.1",
+    "stringcase": "^4.2.0",
     "sugos-travis": "^2.0.7",
     "writeout": "^2.1.0"
   },

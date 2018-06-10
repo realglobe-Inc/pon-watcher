@@ -103,7 +103,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [pon-watcher@2.0.0](./doc/api/api.md)
++ [pon-watcher@2.0.1](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#pon-watcher-function-create)
   + [PonWatcher](./doc/api/api.md#pon-watcher-class)
 
