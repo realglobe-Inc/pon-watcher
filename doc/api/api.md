@@ -1,4 +1,4 @@
-# pon-watcher@2.0.6
+# pon-watcher@2.0.7
 
 File watcher for pon
 
