@@ -2,8 +2,8 @@ language: node_js
 node_js:
 - '8'
 before_install:
+- npm install jsdoc npm@latest -g
 install:
-- npm install jsdoc -g
 - npm install
 script:
 - "./ci/build.js"
@@ -12,7 +12,7 @@ script:
 - "./ci/test.js"
 before_deploy:
   - NODE_ENV=development npm i
-  - git clean -f
+  - git stash --all
 deploy:
   provider: npm
   email: oss@realglobe.jp
