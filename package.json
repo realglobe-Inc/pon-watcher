@@ -4,6 +4,7 @@
   "description": "File watcher for pon",
   "main": "lib",
   "scripts": {
+    "preversion": "./ci/build.js",
     "test": "node ./ci/test.js",
     "prepare": "node ./ci/assets.js && node ./ci/build.js && node ./ci/shim.js && node ./ci/doc.js"
   },
