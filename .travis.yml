@@ -10,9 +10,6 @@ script:
 - "./ci/shim.js"
 - "./ci/doc.js"
 - "./ci/test.js"
-before_deploy:
-  - NODE_ENV=development npm i
-  - git clean -f
 deploy:
   provider: npm
   email: oss@realglobe.jp
