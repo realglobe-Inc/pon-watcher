@@ -6,7 +6,7 @@
   "scripts": {
     "preversion": "./ci/build.js",
     "test": "node ./ci/test.js",
-    "prepare": "npm install --only=dev --ignore-scripts;node ./ci/assets.js && node ./ci/build.js && node ./ci/shim.js && node ./ci/doc.js"
+    "prepare": "node ./ci/assets.js && node ./ci/build.js && node ./ci/shim.js && node ./ci/doc.js"
   },
   "repository": "realglobe-Inc/pon-watcher",
   "keywords": [
