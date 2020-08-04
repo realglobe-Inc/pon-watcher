@@ -1,6 +1,6 @@
 {
   "name": "pon-watcher",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "File watcher for pon",
   "main": "lib",
   "scripts": {
@@ -23,25 +23,25 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-watcher#readme",
   "dependencies": {
-    "awatch": "^2.0.1"
+    "awatch": "^2.0.4"
   },
   "devDependencies": {
-    "ababel": "^5.0.10",
-    "amocha": "^5.0.1",
-    "ape-formatting": "^2.0.1",
-    "ape-releasing": "^5.0.4",
-    "ape-tasking": "^4.0.11",
-    "ape-tmpl": "^6.0.13",
-    "ape-updating": "^5.0.2",
+    "ababel": "^6.1.4",
+    "amocha": "^7.1.1",
+    "ape-formatting": "^2.0.2",
+    "ape-releasing": "^5.0.7",
+    "ape-tasking": "^4.0.12",
+    "ape-tmpl": "^6.0.14",
+    "ape-updating": "^5.0.3",
     "asleep": "^1.0.3",
     "co": "^4.6.0",
-    "coz": "^7.0.14",
+    "coz": "^7.2.0",
     "injectmock": "^2.0.0",
     "pon-assets": "^1.1.2",
     "sg-templates": "^1.4.4",
-    "stringcase": "^4.3.0",
+    "stringcase": "^4.3.1",
     "the-script-jsdoc": "^2.0.4",
-    "writeout": "^2.2.3"
+    "writeout": "^2.3.2"
   },
   "engines": {
     "node": ">=6",
